@@ -2,6 +2,7 @@ import React from 'react';
 
 import "./Home.scss";
 import cityView from '../../assests/cityview.jpg';
+import Gallery from '../../components/Gallery';
 
 const Home = () => {
     return (
@@ -22,7 +23,7 @@ const Home = () => {
             </div>
 
             <div className='h-gallery'>
-
+                <Gallery />
             </div>
 
         </div>
