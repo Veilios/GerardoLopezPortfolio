@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 
 import About from './containers/About/About';
 import Contact from './containers/Contact/Contact';
@@ -14,13 +14,13 @@ function App() {
     <Router>
       <div className="App">
         <nav>
-          <Link to="/">Home</Link>
+          <NavLink to="/" style={({ isActive }) => (isActive ? {color: 'black'} : null)}>Home</NavLink>
 
-          <Link to="/about">About</Link>
+          <NavLink to="/about" style={({ isActive }) => (isActive ? {color: 'black'} : null)}>About</NavLink>
 
-          <Link to="/cv">CV</Link>
+          <NavLink to="/cv" style={({ isActive }) => (isActive ? {color: 'black'} : null)}>CV</NavLink>
 
-          <Link to="/contact">Contact</Link>
+          <NavLink to="/contact" style={({ isActive }) => (isActive ? {color: 'black'} : null)}>Contact</NavLink>
         </nav>
 
 
@@ -30,6 +30,8 @@ function App() {
           <Route path="/cv" element={<Cv/>}/>
           <Route path="contact" element={<Contact/>}/>
         </Routes>
+
+        <footer>© All Rights Reserved, GERARDO LOPEZ</footer>
       </div>
     </Router>
   );
