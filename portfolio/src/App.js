@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
-import About from './components/About';
-import Contact from './components/Contact';
-import Cv from './components/CV';
-import Home from './components/Home';
+import About from './containers/About/About';
+import Contact from './containers/Contact/Contact';
+import Cv from './containers/CV/CV';
+import Home from './containers/Home/Home';
 
 import './App.scss';
 
