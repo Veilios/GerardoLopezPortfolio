@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import Cv from './components/CV';
 import Home from './components/Home';
 
-import './App.css';
+import './App.scss';
 
 
 function App() {
