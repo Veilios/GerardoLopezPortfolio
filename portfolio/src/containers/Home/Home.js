@@ -1,14 +1,15 @@
 import React from 'react';
 
 import "./Home.scss";
-import cityView from '../../assests/cityview.jpg';
+// import cityView from '../../assests/cityview.jpg';
+import arandas from '../../assests/arandas.png';
 import Gallery from '../../components/Gallery';
 
 const Home = () => {
     return (
         <div className="home">
             <div className='h-title'>
-                <img className='mainImg' src={cityView} alt="Road map of city" />
+                <img className='mainImg' src={arandas} alt="Road map of city" />
 
                 <h1>Gerardo Lopez <span>Architecto</span></h1>
             </div>
