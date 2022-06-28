@@ -1,4 +1,110 @@
-form {
+.contact {
+    width: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .c-top {
+        width: 20rem;
+        height: 10rem;
+        text-align: center;
+
+        h2 {
+            font-weight: 500;
+            font-family: 'Barlow', sans-serif;
+        }
+
+        p {
+            font-weight: 300;
+        }
+    }
+
+    .c-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .c-info {
+            display: flex;
+            flex-direction: column;
+            margin-right: 2rem;
+
+            .c-info-item {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 15rem;
+                margin: 0.5rem 0;
+
+                .c-item-link {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: black;
+                }
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                    margin: 0 0.5rem;
+                }
+            }
+        }
+
+        form {
+            width: 30rem;
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 2rem;
+            align-self: center;
+
+            input {
+                width: 50%;
+                height: 50px;
+                border: none;
+                margin: 10px 0px;
+                font-size: 14px;
+                padding-left: 10px;
+                border: 1px solid black;
+                border-radius: 3px;
+            }
+
+            textarea {
+                width: 70%;
+                height: 15rem;
+                margin: 10px 0px;
+                font-size: 14px;
+                padding-left: 10px;
+                border: solid 1px black;
+            }
+
+            .submit {
+                display: inline-block;
+                width: 25%;
+                outline: 0;
+                text-align: center;
+                cursor: pointer;
+                border: 0;
+                padding: 0.5rem;
+                color: #fff;
+                border: 1px solid transparent;
+                border-color: #000;
+                color: #000;
+                background: transparent;
+                font-weight: 800;
+                transition: background, color .1s ease-in-out;
+
+                &:hover {
+                    background-color: #000;
+                    color: #fff;
+                }
+
+            }
+        }
+    }
 }
