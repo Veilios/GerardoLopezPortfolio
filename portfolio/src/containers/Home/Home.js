@@ -11,7 +11,7 @@ const Home = () => {
             <div className='h-title'>
                 <img className='mainImg' src={arandas} alt="Road map of city" />
 
-                <h1>Gerardo Lopez <span>Architecto</span></h1>
+                <h1>Gerardo Lopez <span>Arquitecto</span></h1>
             </div>
 
             <div className='h-text'>
