@@ -14,13 +14,13 @@ function App() {
     <Router>
       <div className="App">
         <nav>
-          <NavLink to="/" style={({ isActive }) => (isActive ? {color: 'black'} : null)}>Home</NavLink>
+          <NavLink to="/" style={({ isActive }) => (isActive ? {color: 'black'} : null)}>Inicio</NavLink>
 
-          <NavLink to="/about" style={({ isActive }) => (isActive ? {color: 'black'} : null)}>About</NavLink>
+          <NavLink to="/about" style={({ isActive }) => (isActive ? {color: 'black'} : null)}>Acerca de</NavLink>
 
-          <NavLink to="/cv" style={({ isActive }) => (isActive ? {color: 'black'} : null)}>CV</NavLink>
+          <NavLink to="/cv" style={({ isActive }) => (isActive ? {color: 'black'} : null)}>Resumen</NavLink>
 
-          <NavLink to="/contact" style={({ isActive }) => (isActive ? {color: 'black'} : null)}>Contact</NavLink>
+          <NavLink to="/contact" style={({ isActive }) => (isActive ? {color: 'black'} : null)}>Contacto</NavLink>
         </nav>
 
 
@@ -31,7 +31,7 @@ function App() {
           <Route path="contact" element={<Contact/>}/>
         </Routes>
 
-        <footer>© All Rights Reserved, GERARDO LOPEZ</footer>
+        <footer>© Todos Derrechos Reseverados, GERARDO LOPEZ</footer>
       </div>
     </Router>
   );
