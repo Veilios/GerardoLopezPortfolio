@@ -9,14 +9,21 @@
         align-items: center;
         justify-content: center;
         border-bottom: 1px solid black;
+        font-family: 'Barlow', sans-serif;
+        text-transform: uppercase;
 
         .mainImg {
             width: 500px;
             height: 450px;
         }
 
-        h1 span {
-            color: gray;
+
+        h1 {
+            font-weight: 400;
+
+            span {
+                color: gray;
+            }
         }
     }
 
