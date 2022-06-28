@@ -4,15 +4,19 @@ A Modern Portfolio for the Architect Gerardo Lopez.
 
 This website will be created using React, with a simple mdoern design.
 
-Pages 
-[ ] - Home page (Headshot with introduction text)
-[ ] - About page (More candid photo with small bio)
+### Pages 
+[Done] - Home page
+[Done] - About page
 [ ] - Design/Work Gallery 
-[ ] - Contact Page
-[ ] - (Optional) Pricing for estimates and meetings
+[Done] - Contact Page
 
 
-Technologies
+### Technologies
   - React
   - Sass
   - EmailJS
+
+
+### To-Do
+  - Effects on home image
+  - Effects on about page
