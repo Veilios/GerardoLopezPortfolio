@@ -20,3 +20,4 @@ This website will be created using React, with a simple mdoern design.
 ### To-Do
   - Effects on home image
   - Effects on about page
+  - Thank you message after sending email
