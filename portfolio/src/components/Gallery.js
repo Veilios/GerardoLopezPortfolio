@@ -1,11 +1,27 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
-import data from "../Projects.json";
+import { ProjectsContext } from '../context/ProjectsContext';
 import "./Gallery.scss";
 
 const Gallery = () => {
+  const { projects } = useContext(ProjectsContext);
+
   return (
-    <div>Gallery</div>
+    <div className='gallery'>
+      {projects.map((project) => {
+        return (
+          <div className='g-item'>
+            <img className='g-img' src={project.image} alt="Project Render" />
+            <div className='g-overlay'>
+              <div className='g-text'>
+                <h4>{project.title}</h4>
+                <p>{project.simpleDescription}</p>
+              </div>
+            </div>
+          </div>
+        )
+      })}
+    </div>
   );
 };
 
