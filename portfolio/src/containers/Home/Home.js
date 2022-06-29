@@ -21,11 +21,12 @@ const Home = () => {
             </div>
 
             <div className='h-text'>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper.
-                    Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin nibh.
+                <p className='h-quote'>
+                “Como arquitecto diseñas para el presente, 
+                con una conciencia del pasado, 
+                por un futuro que es  esencialmente  desconocido” 
+                <br/>
+                <span>- Norman Foster</span>
                 </p>
             </div>
 

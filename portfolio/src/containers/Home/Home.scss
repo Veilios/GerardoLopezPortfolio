@@ -37,6 +37,16 @@
         border-bottom: solid black 1px;
         padding: 2rem 20rem;
         text-align: center;
+
+        .h-quote {
+            font-family: 'Barlow', sans-serif;
+            font-style: italic;
+            font-weight: 400;
+
+            span {
+                font-weight: bold;
+            }
+        }
     }
 
     .h-gallery {
