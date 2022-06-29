@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Mock Project 1",
+        "image": "assests/mock1.jpg",
+        "simpleDescription": "Here is a simple explanation about this project",
+        "mainDescription": "Here is a more detailed explanation about my project. All the ins and outs about how I created it, as well as my inspiration and more...",
+        "floorplan1": "assests/floorplan1",
+        "floorplan2": "assests/floorplan2",
+        "floorplan3": "assests/floorplan3",
+        "active": false
+    },
+    {
+        "id": 2,
+        "title": "Mock Project 2",
+        "image": "assests/mock2.jpg",
+        "simpleDescription": "Here is a simple explanation about this project",
+        "mainDescription": "Here is a more detailed explanation about my project. All the ins and outs about how I created it, as well as my inspiration and more...",
+        "floorplan1": "assests/floorplan1",
+        "floorplan2": "assests/floorplan2",
+        "floorplan3": "assests/floorplan3",
+        "active": false
+    },
+    {
+        "id": 3,
+        "title": "Mock Project 3",
+        "image": "assests/mock3.jpg",
+        "simpleDescription": "Here is a simple explanation about this project",
+        "mainDescription": "Here is a more detailed explanation about my project. All the ins and outs about how I created it, as well as my inspiration and more...",
+        "floorplan1": "assests/floorplan1",
+        "floorplan2": "assests/floorplan2",
+        "floorplan3": "assests/floorplan3",
+        "active": false
+    },
+    {
+        "id": 4,
+        "title": "Mock Project 4",
+        "image": "assests/mock4.jpg",
+        "simpleDescription": "Here is a simple explanation about this project",
+        "mainDescription": "Here is a more detailed explanation about my project. All the ins and outs about how I created it, as well as my inspiration and more...",
+        "floorplan1": "assests/floorplan1",
+        "floorplan2": "assests/floorplan2",
+        "floorplan3": "assests/floorplan3",
+        "active": false
+    },
+    {
+        "id": 5,
+        "title": "Mock Project 5",
+        "image": "assests/mock5.jpg",
+        "simpleDescription": "Here is a simple explanation about this project",
+        "mainDescription": "Here is a more detailed explanation about my project. All the ins and outs about how I created it, as well as my inspiration and more...",
+        "floorplan1": "assests/floorplan1",
+        "floorplan2": "assests/floorplan2",
+        "floorplan3": "assests/floorplan3",
+        "active": false
+    },
+    {
+        "id": 6,
+        "title": "Mock Project 6",
+        "image": "assests/mock6.jpg",
+        "simpleDescription": "Here is a simple explanation about this project",
+        "mainDescription": "Here is a more detailed explanation about my project. All the ins and outs about how I created it, as well as my inspiration and more...",
+        "floorplan1": "assests/floorplan1",
+        "floorplan2": "assests/floorplan2",
+        "floorplan3": "assests/floorplan3",
+        "active": false
+    }
+]
