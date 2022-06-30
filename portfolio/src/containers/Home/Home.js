@@ -1,9 +1,9 @@
 import React from 'react';
 
 import "./Home.scss";
-// import cityView from '../../assests/cityview.jpg';
 import arandas from '../../assests/arandas.png';
-import Gallery from '../../components/Gallery';
+import Gallery from '../../components/Gallery/Gallery';
+import Modal from '../../components/Modal/Modal';
 
 const Home = () => {
     return (
@@ -32,6 +32,7 @@ const Home = () => {
                 <Gallery />
             </div>
 
+            <Modal/>
         </div>
     )
 };

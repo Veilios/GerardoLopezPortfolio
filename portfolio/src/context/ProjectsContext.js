@@ -14,9 +14,9 @@ const ProjectsReducer = (state = initialState, action) => {
                 ...state,
                 projects: state.projects.map(item => {
                     if(item.title === action.payload) {
-                        item.active = true
+                        item.active = true;
                     }
-                    return item
+                    return item;
                 })
             }
         default:
