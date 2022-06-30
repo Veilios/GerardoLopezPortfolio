@@ -20,6 +20,5 @@ This website will be created using React, with a simple mdoern design.
 
 
 ### To-Do
-  - Create modal when project image is clicked
   - Modal will have link to a full page with details on Project
   - Make mobile responsive
