@@ -16,8 +16,6 @@ const Home = () => {
                         <path d="M252.492 117.246H135.246V0h-18v117.246H0v18h117.246v117.246h18V135.246h117.246v-18z"></path>
                     </g>
                 </svg></h1>
-
-
             </div>
 
             <div className='h-text'>

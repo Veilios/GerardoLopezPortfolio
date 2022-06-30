@@ -11,6 +11,12 @@
         border-bottom: 1px solid black;
         font-family: 'Barlow', sans-serif;
         text-transform: uppercase;
+        animation: fadeIn 1s;
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
 
         .mainImg {
             width: 500px;
