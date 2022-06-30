@@ -9,7 +9,7 @@ const About = () => {
             <img src={headshot} alt='Profesional Portrait of Gerardo Lopez' />
 
             <div className='bio'>
-                <h2>About Me</h2>
+                <h2>Acerca de Mi</h2>
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
