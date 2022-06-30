@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 import email from "../../assests/envelope.png";
@@ -7,6 +7,7 @@ import pin from "../../assests/pin.png";
 import "./Contact.scss";
 
 const Contact = () => {
+    const [sent, setSent] = useState(false);
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -51,15 +52,22 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <form ref={form} onSubmit={sendEmail}>
-                    <label>Nombre</label>
-                    <input type="text" name="user_name" />
-                    <label>Correo *</label>
-                    <input type="email" name="user_email" />
-                    <label>Mensaje</label>
-                    <textarea name="message" />
-                    <input className='submit' type="submit" value="Send" />
-                </form>
+                {sent ? (
+                    <div className='c-thanks'>
+                        <h2>Gracias!</h2>
+                        <p>Estare en contacto pronto!</p>
+                    </div>
+                ) : (
+                    <form ref={form} onSubmit={sendEmail} onClick={() => setSent(true)}>
+                        <label>Nombre</label>
+                        <input type="text" name="user_name" />
+                        <label>Correo *</label>
+                        <input type="email" name="user_email" />
+                        <label>Mensaje</label>
+                        <textarea name="message" />
+                        <input className='submit' type="submit" value="Send" />
+                    </form>
+                )}
             </div>
         </div>
     );

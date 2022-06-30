@@ -73,6 +73,30 @@
             }
         }
 
+        .c-thanks {
+            animation: fadeInTop 1s;
+
+            @keyframes fadeInTop {
+                0% {
+                    opacity: 0;
+                    transform: translateY(-20px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            h2 {
+                font-weight: 500;
+                font-family: 'Barlow', sans-serif;
+            }
+    
+            p {
+                font-weight: 300;
+            }
+        }
+
         form {
             width: 30rem;
             height: 40vh;
