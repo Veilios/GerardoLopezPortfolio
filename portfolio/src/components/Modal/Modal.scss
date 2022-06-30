@@ -18,6 +18,14 @@
         align-items: center;
         background-color: white;
         border-radius: 10px;
+        position: relative;
+
+        .m-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
 
         .m-img {
             width: 300px;
@@ -28,9 +36,11 @@
 
         .m-info {
             height: 300px;
-            border: solid red 1px;
+            font-family: 'Barlow', sans-serif;
 
-
+            h4 {
+                font-weight: 700;
+            }
         }
     }
 }

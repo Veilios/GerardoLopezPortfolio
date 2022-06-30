@@ -19,6 +19,16 @@ const ProjectsReducer = (state = initialState, action) => {
                     return item;
                 })
             }
+        case "DEACTIVATE_MODAL":
+            return {
+                ...state,
+                projects: state.projects.map(item => {
+                    if(item.title === action.payload) {
+                        item.active = false;
+                    }
+                    return item;
+                })
+            }
         default:
             return state;
     }

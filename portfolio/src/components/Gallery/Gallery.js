@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
 
-// import Modal from '../Modal/Modal';
 import { ProjectsContext } from '../../context/ProjectsContext';
 import "./Gallery.scss";
 
@@ -31,7 +30,6 @@ const Gallery = () => {
           </div>
         )
       })}
-      {/* <Modal /> */}
     </div>
   );
 };
