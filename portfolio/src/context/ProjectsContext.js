@@ -7,7 +7,22 @@ const initialState = {
     projects: data
 };
 
-const ProjectsReducer = (state, action) => { };
+const ProjectsReducer = (state = initialState, action) => {
+    switch (action.type) {
+        case "ACTIVATE_MODAL":
+            return {
+                ...state,
+                projects: state.projects.map(item => {
+                    if(item.title === action.payload) {
+                        item.active = true
+                    }
+                    return item
+                })
+            }
+        default:
+            return state;
+    }
+};
 
 export const ProjectsContext = createContext();
 

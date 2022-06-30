@@ -58,14 +58,14 @@ const Contact = () => {
                         <p>Estare en contacto pronto!</p>
                     </div>
                 ) : (
-                    <form ref={form} onSubmit={sendEmail} onClick={() => setSent(true)}>
+                    <form ref={form} onSubmit={sendEmail}>
                         <label>Nombre</label>
                         <input type="text" name="user_name" />
                         <label>Correo *</label>
                         <input type="email" name="user_email" />
                         <label>Mensaje</label>
                         <textarea name="message" />
-                        <input className='submit' type="submit" value="Send" />
+                        <input className='submit' type="submit" value="Send" onClick={() => setSent(true)}/>
                     </form>
                 )}
             </div>
