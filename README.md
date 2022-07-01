@@ -21,3 +21,6 @@ This website will be created using React, with a simple mdoern design.
 
 ### To-Do
   - Make mobile responsive
+  - Contact page be written out in html and css or just screen shot
+  - Download link for resume page
+  
