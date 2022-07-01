@@ -27,6 +27,10 @@
         h1 {
             font-weight: 400;
 
+            br {
+                display: none;
+            }
+
             span {
                 color: gray;
             }
@@ -56,3 +60,41 @@
     }
 }
 
+@media screen and (max-width:870px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        padding: 0; 
+
+        .h-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 0.3rem;
+
+            .h-quote {
+                margin: 0;
+                width: 500px;
+                text-align: center;
+                height: 100px;
+                padding: 0;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:470px) {
+    .home {
+
+        .h-title {
+
+            h1 {
+                
+                br {
+                    display: visible;
+                }
+            }
+        }
+    }
+}
