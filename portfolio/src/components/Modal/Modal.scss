@@ -39,19 +39,43 @@
             cursor: pointer;
         }
 
-        .m-img {
-            width: 300px;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 5px;
-        }
+        .m-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
 
-        .m-info {
-            height: 300px;
-            font-family: 'Barlow', sans-serif;
+            .m-container-left {
+                display: flex;
+                height: 50vh;
 
-            h4 {
-                font-weight: 700;
+                .left-1 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    .img-wrap {
+                        width: 70px;
+                        height: 70px;
+                        border: solid 1px #eee;
+                        cursor: pointer;
+
+                        img {
+                            width: 60px;
+                            height: 60px;
+                            object-fit: contain;
+                        }
+                    }
+                } 
+
+                .left-2 {
+
+                    img {
+                        width: 450px;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
             }
         }
     }

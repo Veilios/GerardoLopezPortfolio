@@ -5,9 +5,9 @@
         "image": "images/mock1.jpg",
         "simpleDescription": "Here is a simple explanation about this project",
         "mainDescription": "Here is a more detailed explanation about my project. All the ins and outs about how I created it, as well as my inspiration and more...",
-        "floorplan1": "images/floorplan1",
-        "floorplan2": "images/floorplan2",
-        "floorplan3": "images/floorplan3",
+        "floorplan1": "images/floorplan1.jpg",
+        "floorplan2": "images/floorplan2.webp",
+        "floorplan3": "images/floorplan3.jpg",
         "active": false
     },
     {
@@ -16,9 +16,9 @@
         "image": "images/mock2.jpeg",
         "simpleDescription": "Here is a simple explanation about this project",
         "mainDescription": "Here is a more detailed explanation about my project. All the ins and outs about how I created it, as well as my inspiration and more...",
-        "floorplan1": "images/floorplan1",
-        "floorplan2": "images/floorplan2",
-        "floorplan3": "images/floorplan3",
+        "floorplan1": "images/floorplan1.jpg",
+        "floorplan2": "images/floorplan2.webp",
+        "floorplan3": "images/floorplan3.jpg",
         "active": false
     },
     {
@@ -27,9 +27,9 @@
         "image": "images/mock3.jpg",
         "simpleDescription": "Here is a simple explanation about this project",
         "mainDescription": "Here is a more detailed explanation about my project. All the ins and outs about how I created it, as well as my inspiration and more...",
-        "floorplan1": "images/floorplan1",
-        "floorplan2": "images/floorplan2",
-        "floorplan3": "images/floorplan3",
+        "floorplan1": "images/floorplan1.jpg",
+        "floorplan2": "images/floorplan2.webp",
+        "floorplan3": "images/floorplan3.jpg",
         "active": false
     },
     {
@@ -38,9 +38,9 @@
         "image": "images/mock4.jpg",
         "simpleDescription": "Here is a simple explanation about this project",
         "mainDescription": "Here is a more detailed explanation about my project. All the ins and outs about how I created it, as well as my inspiration and more...",
-        "floorplan1": "images/floorplan1",
-        "floorplan2": "images/floorplan2",
-        "floorplan3": "images/floorplan3",
+        "floorplan1": "images/floorplan1.jpg",
+        "floorplan2": "images/floorplan2.webp",
+        "floorplan3": "images/floorplan3.jpg",
         "active": false
     },
     {
@@ -49,9 +49,9 @@
         "image": "images/mock5.jpg",
         "simpleDescription": "Here is a simple explanation about this project",
         "mainDescription": "Here is a more detailed explanation about my project. All the ins and outs about how I created it, as well as my inspiration and more...",
-        "floorplan1": "images/floorplan1",
-        "floorplan2": "images/floorplan2",
-        "floorplan3": "images/floorplan3",
+        "floorplan1": "images/floorplan1.jpg",
+        "floorplan2": "images/floorplan2.webp",
+        "floorplan3": "images/floorplan3.jpg",
         "active": false
     },
     {
@@ -60,9 +60,9 @@
         "image": "images/mock6.jpg",
         "simpleDescription": "Here is a simple explanation about this project",
         "mainDescription": "Here is a more detailed explanation about my project. All the ins and outs about how I created it, as well as my inspiration and more...",
-        "floorplan1": "images/floorplan1",
-        "floorplan2": "images/floorplan2",
-        "floorplan3": "images/floorplan3",
+        "floorplan1": "images/floorplan1.jpg",
+        "floorplan2": "images/floorplan2.webp",
+        "floorplan3": "images/floorplan3.jpg",
         "active": false
     }
 ]

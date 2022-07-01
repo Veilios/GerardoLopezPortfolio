@@ -8,7 +8,7 @@ This website will be created using React, with a simple mdoern design.
 [Done] - Home page
 [Done] - About page
 [Done] - Design/Work Gallery 
-[ ] - Project Page
+[Done] - Project Page
 [ ] - Resume Page
 [Done] - Contact Page
 
@@ -20,5 +20,4 @@ This website will be created using React, with a simple mdoern design.
 
 
 ### To-Do
-  - Modal will have link to a full page with details on Project
   - Make mobile responsive
