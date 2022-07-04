@@ -54,7 +54,6 @@ const Modal = () => {
             {projects.map((project) => {
                 if (project.active === true) {
                     fillImages(project);
-                    console.log(Images);
 
                     return (
                         <div className='background' key={project.id}>
