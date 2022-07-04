@@ -53,3 +53,17 @@
         }
     }
 }
+
+@media screen and (max-width:960px) {
+    .about {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 20rem;
+            height: 400px;
+            margin-bottom: 2rem;
+        }
+    }
+}
