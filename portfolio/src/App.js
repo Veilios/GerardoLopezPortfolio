@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 
 import About from './containers/About/About';
@@ -11,19 +11,26 @@ import './App.scss';
 
 
 function App() {
+  const [checked, setChecked] = useState(false)
+
   return (
     <ProjectsProvider>
       <Router>
         <div className="App">
-          <nav>
-            <NavLink to="/" style={({ isActive }) => (isActive ? { color: 'black' } : null)}>Inicio</NavLink>
+          <div className='menu'>
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle" checked={checked} onChange={(e) => setChecked(e.target.checked)}/>
 
-            <NavLink to="/about" style={({ isActive }) => (isActive ? { color: 'black' } : null)}>Acerca de</NavLink>
+            <nav>
+              <NavLink to="/" style={({ isActive }) => (isActive ? { color: 'black' } : null)} onClick={() => setChecked((c) => !c)}>Inicio</NavLink>
 
-            <NavLink to="/cv" style={({ isActive }) => (isActive ? { color: 'black' } : null)}>Resumen</NavLink>
+              <NavLink to="/about" style={({ isActive }) => (isActive ? { color: 'black' } : null)} onClick={() => setChecked((c) => !c)}>Acerca de</NavLink>
 
-            <NavLink to="/contact" style={({ isActive }) => (isActive ? { color: 'black' } : null)}>Contacto</NavLink>
-          </nav>
+              <NavLink to="/cv" style={({ isActive }) => (isActive ? { color: 'black' } : null)} onClick={() => setChecked((c) => !c)}>Resumen</NavLink>
+
+              <NavLink to="/contact" style={({ isActive }) => (isActive ? { color: 'black' } : null)} onClick={() => setChecked((c) => !c)}>Contacto</NavLink>
+            </nav>
+          </div>
 
 
           <Routes>
