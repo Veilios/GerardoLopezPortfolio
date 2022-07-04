@@ -62,34 +62,16 @@
     }
 }
 
+@media screen and (max-width:470px) {
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 1rem;
 
-// .gallery {
-//     display: flex;
-//     flex-wrap: wrap;
-
-//     .g-item {
-//         display: flex;
-//         position: relative;
-//         width: 341px;
-//         height: 200px;
-
-//         .g-img {
-//             object-fit: cover;
-//         }
-
-//         .g-overlay {
-//             position: absolute;
-//             top: 0;
-//             left: 0;
-//             width: 100%;
-//             height: 100%;
-
-//             .g-text {
-//                 width: 100%;
-//                 height: 100%;
-//                 display: flex;
-//                 flex-direction: column;
-//             }
-//         }
-//     }
-// }
+        .g-item {
+            width: 90%; 
+        }
+    }
+}
