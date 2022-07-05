@@ -18,7 +18,7 @@ function App() {
       <Router>
         <div className="App">
           <div className='menu'>
-            <label for="toggle">&#9776;</label>
+            <label htmlFor="toggle">&#9776;</label>
             <input type="checkbox" id="toggle" checked={checked} onChange={(e) => setChecked(e.target.checked)}/>
 
             <nav>
