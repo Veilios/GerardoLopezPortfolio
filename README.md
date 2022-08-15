@@ -8,8 +8,8 @@ This website will be created using React, with a simple mdoern design.
 [Done] - Home page
 [Done] - About page
 [Done] - Design/Work Gallery 
-[Done] - Project Page
 [ ] - Resume Page
+[Done] - Project Page
 [Done] - Contact Page
 
 
@@ -20,7 +20,9 @@ This website will be created using React, with a simple mdoern design.
 
 
 ### To-Do
-  - Make mobile responsive
-  - Contact page be written out in html and css or just screen shot
   - Download link for resume page
+  - Create a resume page
+  - Fill mock projects with real ones
+  - Get rid of Lorem Ipsum text
+  
   
