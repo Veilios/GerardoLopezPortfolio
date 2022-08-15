@@ -24,5 +24,7 @@ This website will be created using React, with a simple mdoern design.
   - Create a resume page
   - Fill mock projects with real ones
   - Get rid of Lorem Ipsum text
-  
+  - Add hover effect on Name
+  - Add Logo on top right corner and change favicon
+
   
