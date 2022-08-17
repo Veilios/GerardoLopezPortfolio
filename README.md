@@ -20,8 +20,7 @@ This website will be created using React, with a simple mdoern design.
 
 
 ### To-Do
-  - Download link for resume page
-  - Create a resume page
+  - Delete or replace resume page with something else
   - Fill mock projects with real ones
   - Get rid of Lorem Ipsum text
   - Add hover effect on Name
