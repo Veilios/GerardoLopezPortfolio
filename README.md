@@ -8,7 +8,6 @@ This website will be created using React, with a simple mdoern design.
 [Done] - Home page
 [Done] - About page
 [Done] - Design/Work Gallery 
-[ ] - Resume Page
 [Done] - Project Page
 [Done] - Contact Page
 
