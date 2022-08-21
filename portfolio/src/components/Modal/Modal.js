@@ -43,8 +43,22 @@ const Modal = () => {
     const fillImages = (project) => {
         Images.push(project.image);
         Images.push(project.floorplan1);
-        Images.push(project.floorplan2);
-        Images.push(project.floorplan3);
+        if (project.floorplan2) {
+            Images.push(project.floorplan2);
+        }
+
+        if (project.floorplan3) {
+            Images.push(project.floorplan3);
+        };
+
+        if (project.floorplan4) {
+            Images.push(project.floorplan4);
+        };
+
+        if (project.floorplan5) {
+            Images.push(project.floorplan5);
+        };
+
     };
 
     const [img, setImg] = useState(Images[0]);
@@ -67,7 +81,7 @@ const Modal = () => {
                                             {Images.map((image, i) => (
                                                 <div
                                                     className='img-wrap'
-                                                    key={i} 
+                                                    key={i}
                                                     onMouseOver={() => hoverHandler(image, i)}
                                                     ref={addRef}
                                                 >
