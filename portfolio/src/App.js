@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 
 import About from './containers/About/About';
 import Contact from './containers/Contact/Contact';
-import Cv from './containers/CV/CV';
 import Home from './containers/Home/Home';
 import { ProjectsProvider } from './context/ProjectsContext';
 
@@ -28,8 +27,6 @@ function App() {
 
               <NavLink to="/about" style={({ isActive }) => (isActive ? { color: 'rgb(68, 183, 196)' } : null)} onClick={() => setChecked((c) => !c)}>Acerca de</NavLink>
 
-              <NavLink to="/cv" style={({ isActive }) => (isActive ? { color: 'rgb(68, 183, 196)' } : null)} onClick={() => setChecked((c) => !c)}>Resumen</NavLink>
-
               <NavLink to="/contact" style={({ isActive }) => (isActive ? { color: 'rgb(68, 183, 196)' } : null)} onClick={() => setChecked((c) => !c)}>Contacto</NavLink>
             </nav>
 
@@ -40,7 +37,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/cv" element={<Cv />} />
             <Route path="contact" element={<Contact />} />
           </Routes>
 
