@@ -25,6 +25,18 @@
             }
         }
     }
+
+
+    img {
+        width: 250px;
+        margin-top: 1rem;
+        object-fit: fill;
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: 1;
+        bottom: 1;
+    }
 }
 
 footer {

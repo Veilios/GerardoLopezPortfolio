@@ -7,6 +7,8 @@ import Cv from './containers/CV/CV';
 import Home from './containers/Home/Home';
 import { ProjectsProvider } from './context/ProjectsContext';
 
+import logo from "./assests/logo/My_project-removebg.png";
+
 import './App.scss';
 
 
@@ -30,6 +32,8 @@ function App() {
 
               <NavLink to="/contact" style={({ isActive }) => (isActive ? { color: 'black' } : null)} onClick={() => setChecked((c) => !c)}>Contacto</NavLink>
             </nav>
+
+            <img src={logo} alt="Logo"/>
           </div>
 
 
