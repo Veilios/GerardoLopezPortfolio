@@ -24,13 +24,13 @@ function App() {
             <input type="checkbox" id="toggle" checked={checked} onChange={(e) => setChecked(e.target.checked)}/>
 
             <nav>
-              <NavLink to="/" style={({ isActive }) => (isActive ? { color: 'black' } : null)} onClick={() => setChecked((c) => !c)}>Inicio</NavLink>
+              <NavLink to="/" style={({ isActive }) => (isActive ? { color: 'rgb(68, 183, 196)' } : null)} onClick={() => setChecked((c) => !c)}>Inicio</NavLink>
 
-              <NavLink to="/about" style={({ isActive }) => (isActive ? { color: 'black' } : null)} onClick={() => setChecked((c) => !c)}>Acerca de</NavLink>
+              <NavLink to="/about" style={({ isActive }) => (isActive ? { color: 'rgb(68, 183, 196)' } : null)} onClick={() => setChecked((c) => !c)}>Acerca de</NavLink>
 
-              <NavLink to="/cv" style={({ isActive }) => (isActive ? { color: 'black' } : null)} onClick={() => setChecked((c) => !c)}>Resumen</NavLink>
+              <NavLink to="/cv" style={({ isActive }) => (isActive ? { color: 'rgb(68, 183, 196)' } : null)} onClick={() => setChecked((c) => !c)}>Resumen</NavLink>
 
-              <NavLink to="/contact" style={({ isActive }) => (isActive ? { color: 'black' } : null)} onClick={() => setChecked((c) => !c)}>Contacto</NavLink>
+              <NavLink to="/contact" style={({ isActive }) => (isActive ? { color: 'rgb(68, 183, 196)' } : null)} onClick={() => setChecked((c) => !c)}>Contacto</NavLink>
             </nav>
 
             <img src={logo} alt="Logo"/>

@@ -16,7 +16,7 @@ const Home = () => {
     return (
         <div className="home">
             <div className='h-title'>
-                <Carousel autoPlay={true} showStatus={false} showIndicators={false} showThumbs={false} infiniteLoop={true}>
+                <Carousel width={"800px"} showArrows={false} autoPlay={true} showStatus={false} interval={3500} animationHandler={"fade"} swipeable={false} showIndicators={false} showThumbs={false} infiniteLoop={true}>
                     <div>
                         <img className='mainImg' src={arandas} alt="Road map of city" />
                     </div>
