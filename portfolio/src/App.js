@@ -7,7 +7,7 @@ import Cv from './containers/CV/CV';
 import Home from './containers/Home/Home';
 import { ProjectsProvider } from './context/ProjectsContext';
 
-import logo from "./assests/logo/My_project-removebg.png";
+import logo from "./assests/logo/clearlogo2.png";
 
 import './App.scss';
 
