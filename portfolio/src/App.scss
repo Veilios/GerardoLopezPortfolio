@@ -1,5 +1,7 @@
 .menu {
 
+    width: 100%;
+
     label {
         display: none;
         font-size: 26px;
@@ -50,6 +52,7 @@ footer {
 
 @media screen and (max-width:470px) {
     .menu {
+        width: 100%;
 
         label {
             display: block;
