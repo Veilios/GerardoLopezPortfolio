@@ -32,7 +32,7 @@ const Home = () => {
                     </g>
                 </svg></span>
                 </h1>
-                <p>ARQUITECTURA ● construcción</p>
+                <p>ARQUITECTURA  ●  construcción</p>
             </div>
 
             <div className='h-text'>

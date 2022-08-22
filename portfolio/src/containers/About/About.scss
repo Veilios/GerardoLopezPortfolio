@@ -2,9 +2,11 @@
 .about {
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
     height: 7   0vh;
     margin: 4rem 9rem;
+    height: 80vh;
+    
 
     img {
         width: 200px;
@@ -34,6 +36,7 @@
     .bio {
         width: 300px;
         animation: fadeInLeft 1s;
+        align-self: center;
 
         @keyframes fadeInLeft {
             0% {
