@@ -16,6 +16,7 @@ This website will be created using React, with a simple mdoern design.
   - React
   - Sass
   - EmailJS
+  - React Responsive Carousel
 
 
 ### To-Do
