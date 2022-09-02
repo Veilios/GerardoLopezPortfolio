@@ -20,10 +20,8 @@ This website will be created using React, with a simple mdoern design.
 
 
 ### To-Do
-  - Delete or replace resume page with something else
-  - Fill mock projects with real ones
   - Get rid of Lorem Ipsum text
   - Add hover effect on Name
-  - Add Logo on top right corner and change favicon
+  - Connect EmailJS to actual email
 
   
