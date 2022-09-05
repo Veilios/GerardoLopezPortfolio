@@ -25,5 +25,3 @@ This website will be created using React, with a simple mdoern design.
   - Add hover effect on Name
   - Connect EmailJS to actual email
   - Add verification to contact form
-
-  
