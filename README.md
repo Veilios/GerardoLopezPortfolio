@@ -22,5 +22,4 @@ This website will be created using React, with a simple mdoern design.
 
 ### To-Do
   - Get rid of Lorem Ipsum text
-  - Add hover effect on Name
   - Connect EmailJS to actual email
